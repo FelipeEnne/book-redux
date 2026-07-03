@@ -1,21 +1,53 @@
-# BOOKSTORE 
+# Bookstore
 
+A bookstore app built with React and Redux.
 
-# INSTALLATION GUIDE
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Stack
 
+- [React](https://react.dev/) 18
+- [Redux](https://redux.js.org/) + [React Redux](https://react-redux.js.org/)
+- [Vite](https://vite.dev/)
 
-### `npm install`
+## Prerequisites
 
-### `npm start`
+- [Node.js](https://nodejs.org/) 18 or later
 
+## Installation
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm install
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Development
 
-### Live demo
+Start the development server:
+
+```bash
+npm start
+```
+
+Or:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser. The page reloads automatically when you edit files.
+
+## Production build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Live demo
 
 https://book-redux.netlify.app/
